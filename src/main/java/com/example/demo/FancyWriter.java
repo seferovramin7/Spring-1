@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class FancyWriter implements TextWriter {
     @Override
     public String writeText(String s) {
-        return s + " Fancy Text";
+        return s + " This is Fancy Text";
     }
 
 
