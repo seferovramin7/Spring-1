@@ -18,8 +18,9 @@ public class HelloWorld {
     @Qualifier("FancyWriter")
     TextWriter text1;
 
+
     @RequestMapping("/")
     public String index(){
-        return text.writeText("hi");
+        return text.writeText("haas");
     }
 }
